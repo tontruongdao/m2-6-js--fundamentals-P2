@@ -11,3 +11,12 @@ const earlyBirds = ['Ellen', 'Jerry', 'Jasmine'];
 // Output them in a tidy list from first to last arrival the console.
 
 // NO for loops!
+
+let listOfGuests = earlyBirds.concat(lateComers);
+// This adds the second array at the end.
+
+listOfGuests.forEach(function (item, id) {
+  let x = id + 1;
+  console.log(x + ': ' + item);
+});
+//   Using for each to console log each item with their indices.
